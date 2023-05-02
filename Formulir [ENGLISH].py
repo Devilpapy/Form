@@ -70,7 +70,7 @@ def save_data():
     with open(filepath, 'w') as f:
         f.write(f"Fullname: {nama}\n")
         f.write(f"Gender: {gender}\n")
-        f.write(f"Umur: {umur}\n")
+        f.write(f"Age: {umur}\n")
         f.write(f"Email: {email}\n")
         f.write(f"Password: {password}\n")
         f.write(f"Address: {alamat}\n")
